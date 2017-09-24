@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Story reducer should handles request start action 1`] = `
+Object {
+  "1234": Object {
+    "data": null,
+    "error": null,
+    "loaded": false,
+    "loading": true,
+  },
+}
+`;
+
+exports[`Testing Story reducer should handles request start action 2`] = `
+Object {
+  "1234": Object {
+    "data": Object {
+      "title": "New story",
+    },
+    "loaded": true,
+    "loading": false,
+  },
+}
+`;
+
+exports[`Testing Story reducer should handles request start action 3`] = `
+Object {
+  "1234": Object {
+    "error": Object {
+      "message": "Story request fails!",
+    },
+    "loading": false,
+  },
+}
+`;

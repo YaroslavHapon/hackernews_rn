@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Story component should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "height": 120,
+      "paddingTop": 20,
+    }
+  }
+/>
+`;
+
+exports[`Testing Story component should render correctly 2`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "height": 120,
+      "paddingTop": 20,
+    }
+  }
+/>
+`;
+
+exports[`Testing Story component should render with data 1`] = `
+<View>
+  <TouchableHighlight
+    activeOpacity={0.85}
+    onPress={[Function]}
+    underlayColor="#ccc"
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "flex": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#333",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        New story
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+            Author: 
+          </Text>
+          Jhon Doe
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+            Score: 
+          </Text>
+          100
+        </Text>
+      </View>
+      <Button
+        buttonTextStyle={
+          Object {
+            "color": "#fff",
+            "padding": 5,
+          }
+        }
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2233aa",
+            "marginBottom": 15,
+            "marginTop": 15,
+          }
+        }
+        text="Open In Browser"
+      />
+    </View>
+  </TouchableHighlight>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#CED0CE",
+        "height": 1,
+        "marginLeft": 10,
+        "marginRight": 10,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Testing Story component should show ActivityIndicator, while request loading 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "height": 120,
+      "paddingTop": 20,
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="small"
+  />
+</View>
+`;
+
+exports[`Testing Story component should show the right data 1`] = `
+<View>
+  <TouchableHighlight
+    activeOpacity={0.85}
+    onPress={[Function]}
+    underlayColor="#ccc"
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "flex": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#333",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        New story
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+            Author: 
+          </Text>
+          Jhon Doe
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 12,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+            Score: 
+          </Text>
+          100
+        </Text>
+      </View>
+      <Button
+        buttonTextStyle={
+          Object {
+            "color": "#fff",
+            "padding": 5,
+          }
+        }
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#2233aa",
+            "marginBottom": 15,
+            "marginTop": 15,
+          }
+        }
+        text="Open In Browser"
+      />
+    </View>
+  </TouchableHighlight>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#CED0CE",
+        "height": 1,
+        "marginLeft": 10,
+        "marginRight": 10,
+      }
+    }
+  />
+</View>
+`;

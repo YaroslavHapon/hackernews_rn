@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing story fetch action should return the right id and format 1`] = `
+Object {
+  "payload": Object {
+    "id": 1,
+  },
+  "type": "FETCH_STORY",
+}
+`;
