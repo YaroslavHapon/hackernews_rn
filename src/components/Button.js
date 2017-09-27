@@ -14,7 +14,13 @@ const Button = ({ text, onPress, style, buttonTextStyle}) => {
 Button.propTypes = {
   text: PropTypes.string,
   onPress: PropTypes.func,
-  style: PropTypes.number,
-  buttonTextStyle: PropTypes.number
+  style: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number
+  ]),
+  buttonTextStyle: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number
+  ])
 }
 export default Button

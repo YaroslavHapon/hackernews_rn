@@ -17,6 +17,7 @@ const mockProps = {
   storyGet: {},
   fetchStory: sinon.spy()
 };
+
 describe('Testing Story component', () => {
   const wrapper = shallow(
     <Story {...mockProps} />

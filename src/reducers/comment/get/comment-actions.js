@@ -6,8 +6,7 @@ export function fetchComment (id) {
   return {
     type: FETCH_COMMENT_STARTED,
     payload: {
-      id,
-      data: {}
+      id
     }
   }
 }

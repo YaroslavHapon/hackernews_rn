@@ -49,7 +49,8 @@ export default class Comment extends React.Component{
         data: PropTypes.object,
         error: PropTypes.object
       })
-    ])
+    ]),
+    id: PropTypes.number
   }
 
   state = {
@@ -68,10 +69,10 @@ export default class Comment extends React.Component{
     const { commentGet } = this.props
 
     if(!commentGet[this.props.id]) {
-      return null;
+      return <View style={styles.loadingContainer} />;
     }
     
-    if (!commentGet[this.props.id].loaded && commentGet[this.props.id].loading) {
+    if (commentGet[this.props.id].loading) {
       return (
         <View style={styles.loadingContainer}>
           <ActivityIndicator />

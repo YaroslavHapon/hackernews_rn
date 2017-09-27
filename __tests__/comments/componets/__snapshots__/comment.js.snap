@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Comment component should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }
+/>
+`;
+
+exports[`Testing Comment component should render with data 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Author: 
+    Jhon Doe
+  </Text>
+  <HtmlView
+    RootComponent={[Function]}
+    addLineBreaks={true}
+    onError={[Function]}
+    onLinkLongPress={null}
+    onLinkPress={[Function]}
+    value="Some text"
+  />
+  <View>
+    <Button
+      buttonTextStyle={
+        Object {
+          "color": "#333",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "padding": 5,
+        }
+      }
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "marginBottom": 10,
+          "marginTop": 10,
+        }
+      }
+      text="Show Answers ↓"
+    />
+  </View>
+</View>
+`;
+
+exports[`Testing Comment component should show ActivityIndicator, while request loading 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="small"
+  />
+</View>
+`;
+
+exports[`Testing Comment component should show the right data 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Author: 
+    Jhon Doe
+  </Text>
+  <HtmlView
+    RootComponent={[Function]}
+    addLineBreaks={true}
+    onError={[Function]}
+    onLinkLongPress={null}
+    onLinkPress={[Function]}
+    value="Some text"
+  />
+  <View>
+    <Button
+      buttonTextStyle={
+        Object {
+          "color": "#333",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "padding": 5,
+        }
+      }
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "marginBottom": 10,
+          "marginTop": 10,
+        }
+      }
+      text="Show Answers ↓"
+    />
+  </View>
+</View>
+`;
